@@ -2,6 +2,7 @@ import Slider from "react-slick";
 import { Review1CardApi } from "../../assets/Review1CardApi";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Review3Card from "./Review3Card"
 import SamplePrevArrow from "./SamplePrevArrow/SamplePrevArrow";
 import SampleNextArrow from "./SampleNextArrow/SampleNextArrow";
 const Review3 = () => {
@@ -67,11 +68,11 @@ const Review3 = () => {
             </div>
 
             <div className="w-full relative">
-              {/* <Slider {...settings}>
+              <Slider {...settings}>
                 {Review1CardApi.map((student, index) => (
-                  <Review3card key={index} {...student} />
+                  <Review3Card key={index} {...student} />
                 ))}
-              </Slider> */}
+              </Slider>
             </div>
           </div>
         </div>
