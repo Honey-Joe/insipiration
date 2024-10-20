@@ -4,7 +4,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import SamplePrevArrow from "./SamplePrevArrow/SamplePrevArrow";
 import SampleNextArrow from "./SampleNextArrow/SampleNextArrow";
-import Review3card from "./Review3Card";
 const Review3 = () => {
   const settings = {
     dots: false,
@@ -68,11 +67,11 @@ const Review3 = () => {
             </div>
 
             <div className="w-full relative">
-              <Slider {...settings}>
+              {/* <Slider {...settings}>
                 {Review1CardApi.map((student, index) => (
                   <Review3card key={index} {...student} />
                 ))}
-              </Slider>
+              </Slider> */}
             </div>
           </div>
         </div>
