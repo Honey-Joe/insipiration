@@ -4,7 +4,6 @@ import Navbar from "./components/Navbar/Navbar";
 import Blog1 from "./components/Blog1/Blog1";
 import Blog2 from "./components/Blog2/Blog2";
 import ReviewSection from "./components/Review/Review1/Review1";
-import App from "./components/Review/Hey";
 import SimpleSlider from "./components/Review/Review2/Review2";
 import Review1 from "./components/Review1/Review1";
 import Review3 from "./components/Review3/Review3";
