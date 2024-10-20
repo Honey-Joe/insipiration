@@ -1,11 +1,10 @@
 import Slider from "react-slick";
 import { Review1CardApi } from "../../assets/Review1CardApi";
-import Review3card from "./Review3card";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import SamplePrevArrow from "./SamplePrevArrow/SamplePrevArrow";
 import SampleNextArrow from "./SampleNextArrow/SampleNextArrow";
-
+import Review3card from "./Review3Card";
 const Review3 = () => {
   const settings = {
     dots: false,
