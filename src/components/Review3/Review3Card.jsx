@@ -6,13 +6,13 @@ const Review3card = () => {
   return (
     <>
       <div className="max-w-[100%] mx-auto border py-10 px-5">
-        <div className="w-[90%] mx-auto grid grid-cols-3">
+        <div className="lg:w-[90%] mx-auto grid lg:grid-cols-3 grid-cols-1">
           <div className="col-span-1">
             <img src={review3} alt="" className=" object-fill rounded-lg"/>
           </div>
           <div className="flex flex-col gap-5 col-span-2">
             <div>
-              <p className="font-[Poppins] leading-10 text-[20px]">
+              <p className="font-[Poppins] lg:leading-10 text-md lg:text-[20px]">
                 {" "}
                 Flexible Classes refers to the process of acquiring knowledge or
                 skills through the use of digital technologies and the internet.
@@ -24,7 +24,7 @@ const Review3card = () => {
             <div>
               <p>Average Rating 4.7</p>
             </div>
-            <div className="flex gap-5 ">
+            <div className="flex gap-5 flex-wrap">
               <div className="border p-3 rounded-lg">
                 <Star fill="#F57104" stroke="#F57104"></Star>
               </div>

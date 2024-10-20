@@ -35,8 +35,8 @@ const Review3 = () => {
   return (
     <>
       <div className=" max-w-[100%] mx-auto my-10">
-        <div className=" w-[90%] mx-auto">
-          <div className=" p-8 flex flex-col gap-5">
+        <div className=" lg:w-[90%] mx-auto">
+          <div className="p-4 lg:p-8 flex flex-col gap-5">
             <div>
               <div className="flex gap-5">
                 <div className="">
@@ -67,7 +67,7 @@ const Review3 = () => {
               </div>
             </div>
 
-            <div className="w-full relative">
+            <div className="grid grid-cols-1">
               <Slider {...settings}>
                 {Review1CardApi.map((student, index) => (
                   <Review3Card key={index} {...student} />

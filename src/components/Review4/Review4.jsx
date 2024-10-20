@@ -16,7 +16,7 @@ import { Star } from "lucide-react";
 export default function App() {
   return (
     <>
-      <div className="w-[90%] mx-auto grid grid-cols-2">
+      <div className="w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2">
         <div className="flex justify-center items-center">
           <div className="w-full flex justify-center mb-10 text-center">
             <div className="max-w-lg">

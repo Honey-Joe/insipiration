@@ -36,10 +36,10 @@ const Review1 = () => {
   return (
     <>
         <div className=' max-w-[100%] mx-auto bg-blue-600 py-10 my-10'>
-            <div className=' w-[90%] mx-auto'>
-                <div className=" p-8">
-                    <h2 className="text-white text-3xl font-bold pb-2">Our Students Review</h2>
-                    <h1 className="text-white text-4xl font-bold pb-14">What Our Students Are Say's</h1>
+            <div className=' lg:w-[90%] mx-auto'>
+                <div className=" p-4 lg:p-8">
+                    <h2 className="text-white text-lg lg:text-3xl font-bold pb-2">Our Students Review</h2>
+                    <h1 className="text-white  text-xl lg:text-4xl font-bold pb-14">What Our Students Are Say's</h1>
                     <div className="w-full relative">
                         <Slider {...settings}>
                             {

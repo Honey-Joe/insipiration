@@ -41,14 +41,14 @@ export default function SimpleSlider() {
 
     
     <div className="max-w-[100%]">
-        <div  className="w-[80%] mx-auto grid grid-cols-1">
+        <div  className="w-[90%] lg:w-[80%] mx-auto grid grid-cols-1">
         <div className="w-1/2 pr-4">
           <h2 className="text-purple-700 text-xl font-bold">TESTIMONIALS</h2>
           <h3 className="text-2xl font-semibold mt-2">Students Feedback</h3>
 
         </div>
-        <div className="flex gap-5">
-    <Slider {...settings} className="w-[50%]">
+        <div className="grid grid-cols-1">
+    <Slider {...settings} className="lg:w-[50%]">
       <div className="w-[50%] mx-auto ">
       <div className="bg-white p-6 rounded-lg  mt-4">
         <div className="flex gap-5">
@@ -129,7 +129,7 @@ export default function SimpleSlider() {
       
       
     </Slider>
-    <div className="flex items-center justify-center flex-col gap-7">
+    <div className="hidden lg:flex items-center justify-center flex-col gap-7">
               <img
                 className="w-20 h-20 rounded-full"
                 src={blog1_1}
